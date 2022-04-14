@@ -1,8 +1,8 @@
-# package_name
+# hello
 
 Description. 
 The package package_name is used to:
-	- 
+	- Hello world!
 	-
 
 ## Installation
@@ -10,18 +10,18 @@ The package package_name is used to:
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
 
 ```bash
-pip install package_name
+pip install hello_juanmosh
 ```
 
 ## Usage
 
 ```python
-from package_name import file1_name
-file1_name.my_function()
+from hello_juanmosh.hello_juanmosh import hello_juanmosh
+hello_juanmosh("your name")
 ```
 
 ## Author
-My_name
+Juan
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
